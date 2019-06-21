@@ -1,0 +1,17 @@
+
+.carousel{
+    height: 390px;
+}
+.carousel_item{
+    height: 390px;
+    width:100%;
+    display: flex;
+    padding-top:10px;
+    justify-content: center;
+}
+.carousel_item_img{
+    display: block;
+    height: 324px;
+    width:690px;
+    border-radius: 20px;
+}

@@ -1,0 +1,27 @@
+.nav_list{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    background-color: #fff;
+}
+
+.nav_item{
+    width:20%;
+    flex-shrink: 0;
+    margin-top: 40px;
+}
+.nav_item_icon{
+    width:72px;
+    height: 72px;
+    margin:0 auto;
+    display: block;
+}
+.nav_item_text{
+    display: block;
+    font-size: 24px;
+    margin-top:20px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
